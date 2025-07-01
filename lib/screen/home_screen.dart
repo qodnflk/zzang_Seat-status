@@ -10,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List pages = [FirstFloor(), SecondFloor()];
+  List pages = [const FirstFloor(), const SecondFloor()];
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -18,8 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text('PC현황'),
-          bottom: TabBar(
+          title: const Text('PC현황'),
+          bottom: const TabBar(
             tabs: [
               Tab(text: '1층'),
               Tab(text: '2층'),

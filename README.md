@@ -1,16 +1,20 @@
-# flutter_application_1
 
-A new Flutter project.
+// PC방 좌석현황 앱
 
-## Getting Started
+// 이앱의 목적은 PC방 좌석에서 발생한 문제들을 알기쉽게 알리기위해 만든 앱
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+// 일지
+2025/6/31 
+   - 기본적인 앱틀 완료 
+     - 메인 페이지, 좌석 상세페이지 구현 완료
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+//TODO 
+    1. UI개선
+    2. FireBase를 통해 여러사람이 동일한 데이터를 공유하고 볼수잇게 변경
+    3. 앱 아이콘 ,이름 변경
+    
